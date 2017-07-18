@@ -1,8 +1,22 @@
+
+@media only screen and (max-width: 768px) {
+    [class*="wrapper"] {
+        margin:0px;
+        margin-left:0px;
+        margin-right:0px;
+    }
+}
+
 html {
   background: linear-gradient(to right, rgba(92,47,215,1) 0%, rgba(139,60,214,1) 100%);
 }
 body {
   font-size: 70px;
+}
+.wrapper {
+  margin:50px;
+  margin-left:150px;
+  margin-right:150px;
 }
 h1 {
   font-family: 'Roboto Mono', monospace;
@@ -31,9 +45,6 @@ p {
 
 .profile {
   color: #D6FF79;
-}
-.profile:hover {
-  background-color: #2AB7CA
 }
 
 .card {
