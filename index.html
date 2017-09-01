@@ -4,13 +4,15 @@
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animate.css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
     <script src="masonry.pkgd.min.js"></script>
     <script src="function.js"></script>
   </head>
   <body onload="mason()">
 
-  <div class="wrapper" data-tilt data-tilt-max="10" data-tilt data-tilt-reverse="true">
+  <div class="wrapper">
+
       <div style="margin:10px">
         <h1>
           Hi, I'm <span class="profile">Kartik</span>
@@ -18,9 +20,33 @@
         <h2>
           I'm a multidisciplinary designer focused on creating interactive experiences
         </h2>
+        <hr>
+        <h4 style="margin-bottom:10px">My Skills <i class="em em-dart"></i> </h4>
+        <div>
+        <h2>Unity3D</h2>
+        <div class="containerBar">
+          <div class="skills html">90%</div>
+        </div>
+        <h2>CSS</h2>
+        <div class="containerBar">
+          <div class="skills css">80%</div>
+        </div>
+        <h2>JavaScript</h2>
+        <div class="containerBar">
+          <div class="skills js">65%</div>
+        </div>
+        <h2>PHP</h2>
+        <div class="containerBar">
+          <div class="skills php">60%</div>
+        </div>
+        </div>
+      </div>
+      <div style="margin:10px">
+        <hr>
+        <h4>My Projects <i class="em em-pencil2"></i> </h4>
       </div>
 
-      <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 0 }'>
+      <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 0 }' >
 
         <div class="grid-item card" onclick="modalOn('proj1');">
           <img src="pr1.gif" alt="Avatar" style="width:100%;vertical-align: top">
